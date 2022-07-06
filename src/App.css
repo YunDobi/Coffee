@@ -1,0 +1,30 @@
+.App {
+  margin: auto;
+  padding: 0;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  max-width: 800px;
+  height: 800px;
+  border-radius: 15px;
+  background-color: aquamarine;
+}
+
+.SlideShow {
+  margin: 0 auto;
+  overflow: hidden;
+  max-width: 1000px;
+}
+.Slider {
+  width: 100%;
+  white-space: nowrap;
+  transition: ease 1000ms;
+}
+
+.Slide {
+  display: inline-block;
+
+  height: 400px;
+  width: 100%;
+  border-radius: 40px;
+}
