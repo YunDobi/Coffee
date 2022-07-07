@@ -1,18 +1,21 @@
 import './App.css';
-import cafe from "./images/sunnyCafe.jpg";
-import coffee from "./images/coffee.jpg";
-import coffeeBean from "./images/coffeeBean.jpg";
 import React from 'react';
+//components
+import NavBar from './components/NavBar';
+//images
+import cafe from "./images/sunnyCafe.jpg";
+import coffeeBoard from "./images/coffeeBoard.jpg";
+import brew from "./images/brew.jpg";
+import coffeeBean from "./images/coffeeBean.jpg";
 
-const images = [cafe, coffee, coffeeBean]
-const delay = 5000;
+const images = [brew, cafe, coffeeBoard]
+const delay = 2500;
 
 function SlideShow () {
   const [index, setIndex] = React.useState(0);
-  const timeoutRef = React.useRef(null);
 
   React.useEffect(() => {
-    timeoutRef.current = setTimeout(
+    setTimeout(
       () =>
         setIndex((prevIndex) =>
           prevIndex === images.length - 1 ? 0 : prevIndex + 1
@@ -29,7 +32,7 @@ function SlideShow () {
         {images.map((image, index) => {
           return (
             <div className='Slide' key={index}>
-              <img src={image} alt="" style={{width:"600px", height: "600px"}}></img>
+              <img src={image} alt="" style={{width:"100%", height: "600px"}}></img>
             </div>
           )
         })}
@@ -42,10 +45,28 @@ function SlideShow () {
 function App() {
   return (
     <div className="App">
-      <div>
-        <h1>Logo, menu, etc</h1>
+        <NavBar />
+        <div className="image one">
         <SlideShow />
+        </div>
+        <div class="scroll">
+        <h3>
+          "There's nothing more beautiful than the way how the ocean refuses to stop kissing the shoreline, no matter how many times it's sent away."
+        </h3>
       </div>
+        <div className="image two"></div>
+        <div class="scroll">
+        <h3>
+          "There's nothing more beautiful than the way how the ocean refuses to stop kissing the shoreline, no matter how many times it's sent away."
+        </h3>
+      </div>
+        <div className="image three"></div>
+        <div class="scroll">
+        <h3>
+          "There's nothing more beautiful than the way how the ocean refuses to stop kissing the shoreline, no matter how many times it's sent away."
+        </h3>
+      </div>
+        <div className="image four"></div>
     </div>
   );
 }
