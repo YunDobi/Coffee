@@ -6,10 +6,9 @@ import NavBar from './components/NavBar';
 import cafe from "./images/sunnyCafe.jpg";
 import coffeeBoard from "./images/coffeeBoard.jpg";
 import brew from "./images/brew.jpg";
-import coffeeBean from "./images/coffeeBean.jpg";
 
 const images = [brew, cafe, coffeeBoard]
-const delay = 2500;
+const delay = 3000;
 
 function SlideShow () {
   const [index, setIndex] = React.useState(0);
@@ -46,24 +45,29 @@ function App() {
   return (
     <div className="App">
         <NavBar />
-        <div className="image one">
         <SlideShow />
+        <div class="scroll">
+        <h3>
+          arrow down , introduction of the cafe
+        </h3>
+      </div>        
+        <div className="image one">
         </div>
         <div class="scroll">
         <h3>
-          "There's nothing more beautiful than the way how the ocean refuses to stop kissing the shoreline, no matter how many times it's sent away."
+          Detail of the cafe and advantage
         </h3>
       </div>
         <div className="image two"></div>
         <div class="scroll">
         <h3>
-          "There's nothing more beautiful than the way how the ocean refuses to stop kissing the shoreline, no matter how many times it's sent away."
+            menu
         </h3>
       </div>
         <div className="image three"></div>
         <div class="scroll">
         <h3>
-          "There's nothing more beautiful than the way how the ocean refuses to stop kissing the shoreline, no matter how many times it's sent away."
+          reservation
         </h3>
       </div>
         <div className="image four"></div>
