@@ -7,6 +7,7 @@ import Footer from './components/Footer';
 import cafe from "./images/sunnyCafe.jpg";
 import coffeeBoard from "./images/coffeeBoard.jpg";
 import brew from "./images/brew.jpg";
+import Introduction from './components/Introduction';
 
 const images = [brew, cafe, coffeeBoard]
 const delay = 3000;
@@ -47,33 +48,40 @@ function App() {
     <div className="App">
         <NavBar />
         <SlideShow />
-        <div class="scroll">
-        <h3>
-          arrow down , introduction of the cafe
-        </h3>
-        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-arrow-down" viewBox="0 0 16 16">
-  <path fill-rule="evenodd" d="M8 1a.5.5 0 0 1 .5.5v11.793l3.146-3.147a.5.5 0 0 1 .708.708l-4 4a.5.5 0 0 1-.708 0l-4-4a.5.5 0 0 1 .708-.708L7.5 13.293V1.5A.5.5 0 0 1 8 1z"/>
-</svg>
-      </div>        
+        <div class="scroll" id='intro'>
+          <h3>
+            this is the intro and move foward
+          </h3>
+    <span className='arrow'>
+      <a href='#intro'>
+        <i class="fa-solid fa-bounce fa-angles-down"></i>
+      </a>
+    </span>
+    </div>  
+
         <div className="image one">
+          <Introduction />
         </div>
         <div class="scroll">
-        <h3>
-          Detail of the cafe and advantage
-        </h3>
-      </div>
+          <h3>
+            this is the intro and move foward
+          </h3>
+        </div>
+
         <div className="image two"></div>
         <div class="scroll">
-        <h3>
+        <h3 id='menu'>
             menu
         </h3>
-      </div>
+        </div>
+
         <div className="image three"></div>
         <div class="scroll">
         <h3>
           reservation
         </h3>
       </div>
+
         <div className="image four"></div>
         <Footer />
     </div>

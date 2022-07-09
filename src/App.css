@@ -64,3 +64,6 @@ html {
     color: #666666;
     z-index: 1;
 }
+.arrow:hover {
+  cursor: pointer;
+}

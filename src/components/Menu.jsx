@@ -1,6 +1,8 @@
 import React from "react";
 
-const Introduction = () => {
-
+const Menu = () => {
+  return (
+    <h3>Menu</h3>
+  )
 }
-export default Introduction;
+export default Menu;
