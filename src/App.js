@@ -2,6 +2,7 @@ import './App.css';
 import React from 'react';
 //components
 import NavBar from './components/NavBar';
+import Footer from './components/Footer';
 //images
 import cafe from "./images/sunnyCafe.jpg";
 import coffeeBoard from "./images/coffeeBoard.jpg";
@@ -50,6 +51,9 @@ function App() {
         <h3>
           arrow down , introduction of the cafe
         </h3>
+        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-arrow-down" viewBox="0 0 16 16">
+  <path fill-rule="evenodd" d="M8 1a.5.5 0 0 1 .5.5v11.793l3.146-3.147a.5.5 0 0 1 .708.708l-4 4a.5.5 0 0 1-.708 0l-4-4a.5.5 0 0 1 .708-.708L7.5 13.293V1.5A.5.5 0 0 1 8 1z"/>
+</svg>
       </div>        
         <div className="image one">
         </div>
@@ -71,6 +75,7 @@ function App() {
         </h3>
       </div>
         <div className="image four"></div>
+        <Footer />
     </div>
   );
 }

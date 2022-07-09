@@ -42,16 +42,20 @@ html {
   background-attachment: fixed;
 }
 .one {
-  background-image: url(images/coffeeBean.jpg)
+  background-image: url(images/coffeeBean.jpg);
+  width: 100%;
 }
 .two {
-  background-image: url(images/cafeOutside.jpg)
+  background-image: url(images/cafeOutside.jpg);
+  width: 100%;
 }
 .three {
-  background-image: url(images/brew2.jpg)
+  background-image: url(images/brew2.jpg);
+  width: 100%;
 }
 .four {
-  background-image: url(images/steamCoffee.jpg)
+  background-image: url(images/steamCoffee.jpg);
+  width: 100%;
 }
 .scroll {
   margin: 0;
