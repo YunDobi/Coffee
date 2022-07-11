@@ -1,10 +1,11 @@
 import React from "react";
+import './Introduction.css';
 
 const Introduction = () => {
   return (
-    <h3 style={{margin:"0"}}>
-      Introduction
-    </h3>
+    <div className="container">
+      <h3>Introdution</h3>
+    </div>
   )
 }
 export default Introduction;

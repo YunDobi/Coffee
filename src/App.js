@@ -8,6 +8,7 @@ import cafe from "./images/sunnyCafe.jpg";
 import coffeeBoard from "./images/coffeeBoard.jpg";
 import brew from "./images/brew.jpg";
 import Introduction from './components/Introduction';
+import Menu from './components/Menu';
 
 const images = [brew, cafe, coffeeBoard]
 const delay = 3000;
@@ -64,11 +65,13 @@ function App() {
         </div>
         <div class="scroll">
           <h3>
-            this is the intro and move foward
+            this is the detail
           </h3>
         </div>
 
-        <div className="image two"></div>
+        <div className="image two">
+          <Menu />
+        </div>
         <div class="scroll">
         <h3 id='menu'>
             menu
