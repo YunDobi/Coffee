@@ -36,6 +36,9 @@ html {
 
 .image {
   height: 600px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
