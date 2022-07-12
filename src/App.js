@@ -9,9 +9,12 @@ import coffeeBoard from "./images/coffeeBoard.jpg";
 import brew from "./images/brew.jpg";
 import Introduction from './components/Introduction';
 import Menu from './components/Menu';
+import Cafe from "./components/slideshow/Cafe";
 
+
+//insert custom images for slideshow.
 const images = [brew, cafe, coffeeBoard]
-const delay = 3000;
+const delay = 5000;
 
 function SlideShow () {
   const [index, setIndex] = React.useState(0);
@@ -34,7 +37,7 @@ function SlideShow () {
         {images.map((image, index) => {
           return (
             <div className='Slide' key={index}>
-              <img src={image} alt="" style={{width:"100%", height: "600px"}}></img>
+              <Cafe url={image} text="This is SlideShow"/>
             </div>
           )
         })}
