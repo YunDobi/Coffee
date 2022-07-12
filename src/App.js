@@ -78,14 +78,18 @@ function App() {
         </h3>
         </div>
 
-        <div className="image three"></div>
+        <div className="image three">
+          <Menu />
+        </div>
         <div class="scroll">
         <h3>
           reservation
         </h3>
       </div>
 
-        <div className="image four"></div>
+        <div className="image four">
+          <Menu />
+        </div>
         <Footer />
     </div>
   );
