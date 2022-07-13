@@ -1,0 +1,16 @@
+.navContainer {
+  display: flex;
+  justify-content: space-between;
+  height: 70px;
+  align-items: center; 
+  text-align: center;
+}
+.NavMenu {
+  display: flex;
+  gap:30px;
+  margin-right: 30px
+}
+
+.NavMenu > span:hover {
+  cursor: pointer;
+}

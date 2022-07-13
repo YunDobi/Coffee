@@ -1,13 +1,19 @@
 import React from "react";
+import "./navBar.css";
+import Button from 'react-bootstrap/Button';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 const NavBar = () => {
   return (
-    <div style={{display:"flex", justifyContent:"space-between", height:"70px", alignItems:"center", textAlign:"center"}}>
+    <div className="navContainer">
       <h1 style={{margin:"0", marginLeft:"30px"}}>Logo</h1>
-      <div style={{display:"flex", gap:"30px", marginRight:"30px"}}>
-        <span>contact</span>
-        <span>Menu</span>
-        <span>Reservation</span>
+      <div className="NavMenu">
+        {/* <span><a href="#intro">Detail</a></span>
+        <span><a href="#menu">Menu</a></span>
+        <span><a href="#reservation">Reservation</a></span> */}
+        <Button variant="light" href="#detail">Detail</Button>{' '}
+        <Button variant="light" href="#menu">Menu</Button>{' '}
+        <Button variant="light" href="#reservation">Reservation</Button>{' '}
       </div>
     </div>
   )
