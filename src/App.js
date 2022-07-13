@@ -66,7 +66,7 @@ function App() {
         <div className="image one">
           <Introduction />
         </div>
-        <div class="scroll">
+        <div class="scroll" id='detail'>
           <h3>
             this is the detail
           </h3>
@@ -75,7 +75,7 @@ function App() {
         <div className="image two">
           <Menu />
         </div>
-        <div class="scroll">
+        <div class="scroll" id='menu'>
         <h3 id='menu'>
             menu
         </h3>
@@ -84,7 +84,7 @@ function App() {
         <div className="image three">
           <Menu />
         </div>
-        <div class="scroll">
+        <div class="scroll" id='reservation'>
         <h3>
           reservation
         </h3>
