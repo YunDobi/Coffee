@@ -69,7 +69,7 @@ function App() {
         </div>
         <div class="scroll" id='detail'>
           <h3>
-            this is the detail
+            Our History
           </h3>
         </div>
 
