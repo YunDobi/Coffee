@@ -10,6 +10,7 @@ import brew from "./images/brew.jpg";
 import Introduction from './components/Introduction';
 import Menu from './components/Menu';
 import Cafe from "./components/slideshow/Cafe";
+import Detail from './components/Detail';
 
 
 //insert custom images for slideshow.
@@ -53,8 +54,8 @@ function App() {
         <NavBar />
         <SlideShow />
         <div class="scroll" id='intro'>
-          <h3>
-            this is the intro and move foward
+          <h3 style={{marginBottom:"10px"}}>
+            Who are we?
           </h3>
     <span className='arrow'>
       <a href='#intro'>
@@ -73,7 +74,7 @@ function App() {
         </div>
 
         <div className="image two">
-          <Menu />
+          <Detail />
         </div>
         <div class="scroll" id='menu'>
         <h3 id='menu'>
