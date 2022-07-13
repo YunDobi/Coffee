@@ -1,13 +1,19 @@
 .container {
-  background-color: rgba(0, 0, 0, 0.4);
+  /* background-color: rgba(0, 0, 0, 0.4); */
   height: 500px;
   width: 800px;
   margin: 0;
   padding: 0;
-  display: flex;
+  /* display: flex; */
   justify-content: center;
   align-items: center;
+  color: aliceblue;
 }
 h3 {
   margin: 0;
+}
+
+.subContainer {
+  display: flex;
+  justify-content: space-between;
 }

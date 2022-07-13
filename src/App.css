@@ -43,6 +43,7 @@ html {
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
+  overflow: hidden;
 }
 .one {
   background-image: url(images/coffeeBean.jpg);
