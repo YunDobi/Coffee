@@ -11,9 +11,9 @@ const NavBar = () => {
         {/* <span><a href="#intro">Detail</a></span>
         <span><a href="#menu">Menu</a></span>
         <span><a href="#reservation">Reservation</a></span> */}
-        <Button variant="light" href="#detail">Detail</Button>{' '}
-        <Button variant="light" href="#menu">Menu</Button>{' '}
-        <Button variant="light" href="#reservation">Reservation</Button>{' '}
+        <Button variant="light" href="#detail" style={{backgroundColor:"lightyellow"}}>Detail</Button>{' '}
+        <Button variant="light" href="#menu"  style={{backgroundColor:"lightyellow"}}>Menu</Button>{' '}
+        <Button variant="light" href="#reservation"  style={{backgroundColor:"lightyellow"}}>Reservation</Button>{' '}
       </div>
     </div>
   )
