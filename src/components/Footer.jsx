@@ -5,15 +5,13 @@ const Footer = () => {
     <>
     <div className="FooterContainer" style={{ height: "100px", display:"flex", justifyContent:"space-around", padding:"15px" }}>
       <div>
-        <p>logo</p>
+        <p>Brew Holic</p>
       </div>
       <div>
         <p>email<br />
           adress<br />
           phone number<br />
-          bootstrap<br />
-          instagram<br />
-          facebook</p>
+          </p>
       </div>
     </div>
 

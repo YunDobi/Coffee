@@ -1,0 +1,18 @@
+.inputContainer {
+  border: 1px solid white;
+  border-radius: 30px;
+  background-color: aliceblue;
+  width: 500px;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.emailInput {
+  margin-top: 30px;
+  border-radius: 30px;
+  width: 400px;
+}
+button {
+  margin-top: 30px;
+}
