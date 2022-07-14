@@ -3,16 +3,21 @@ import React from "react";
 const Footer = () => {
   return (
     <>
-    <div className="FooterContainer" style={{ height: "100px", display:"flex", justifyContent:"space-around" }}>
+    <div className="FooterContainer" style={{ height: "100px", display:"flex", justifyContent:"space-around", padding:"15px" }}>
       <div>
         <p>logo</p>
       </div>
       <div>
-        <p>email, adress, phone number, bootstrap instagram, facebook</p>
+        <p>email<br />
+          adress<br />
+          phone number<br />
+          bootstrap<br />
+          instagram<br />
+          facebook</p>
       </div>
     </div>
 
-    <div className="icons" style={{ margin: "auto", width: "100px", justifyContent: "" }}>
+    <div className="icons" style={{ margin: "auto", width: "100px", padding:"15px", display:"flex", justifyContent:"space-around"}}>
         <svg
           xmlns="http://www.w3.org/2000/svg"
           width="16"
