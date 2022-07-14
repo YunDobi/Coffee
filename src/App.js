@@ -11,6 +11,7 @@ import Introduction from './components/Introduction';
 import Menu from './components/Menu';
 import Cafe from "./components/slideshow/Cafe";
 import Detail from './components/Detail';
+import Reservation from './components/Reservation';
 
 
 //insert custom images for slideshow.
@@ -38,7 +39,7 @@ function SlideShow () {
         {images.map((image, index) => {
           return (
             <div className='Slide' key={index}>
-              <Cafe url={image} text="This is SlideShow"/>
+              <Cafe url={image} text="brew every fresh Coffee"/>
             </div>
           )
         })}
@@ -69,7 +70,7 @@ function App() {
         </div>
         <div class="scroll" id='detail'>
           <h3>
-            this is the detail
+            What make our cafe Special?
           </h3>
         </div>
 
@@ -92,7 +93,7 @@ function App() {
       </div>
 
         <div className="image four">
-          <Menu />
+          <Reservation />
         </div>
         <Footer />
     </div>
