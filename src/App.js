@@ -56,7 +56,7 @@ function App() {
         <SlideShow />
         <div class="scroll" id='intro'>
           <h3 style={{marginBottom:"10px"}}>
-            Who are we?
+            Who We Are?
           </h3>
     <span className='arrow'>
       <a href='#intro'>
@@ -70,11 +70,7 @@ function App() {
         </div>
         <div class="scroll" id='detail'>
           <h3>
-<<<<<<< HEAD
-            Our History
-=======
-            What make our cafe Special?
->>>>>>> cbd3ffb91a46cedce3bcb095c29581fa2e02d271
+            Are you ready for getting coffee?
           </h3>
         </div>
 
