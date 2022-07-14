@@ -70,7 +70,11 @@ function App() {
         </div>
         <div class="scroll" id='detail'>
           <h3>
+<<<<<<< HEAD
+            Our History
+=======
             What make our cafe Special?
+>>>>>>> cbd3ffb91a46cedce3bcb095c29581fa2e02d271
           </h3>
         </div>
 
