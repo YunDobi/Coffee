@@ -1,9 +1,13 @@
 .navContainer {
+  position: fixed;
+  width: 100%;
   display: flex;
   justify-content: space-between;
+  background-color: beige;
   height: 70px;
-  align-items: center; 
+  align-items: center;
   text-align: center;
+  z-index: 2;
 }
 .NavMenu {
   display: flex;

@@ -10,7 +10,7 @@ import brew from "./images/brew.jpg";
 import Introduction from './components/Introduction';
 import Menu from './components/Menu';
 import Cafe from "./components/slideshow/Cafe";
-import Detail from './components/Detail';
+import Reviews from './components/Reviews';
 import Reservation from './components/Reservation';
 
 
@@ -54,13 +54,13 @@ function App() {
     <div className="App">
         <NavBar />
         <SlideShow />
-        <div class="scroll" id='intro'>
+        <div className="scroll" id='intro'>
           <h3 style={{marginBottom:"10px"}}>
             Who We Are?
           </h3>
     <span className='arrow'>
       <a href='#intro'>
-        <i class="fa-solid fa-bounce fa-angles-down"></i>
+        <i className="fa-solid fa-bounce fa-angles-down"></i>
       </a>
     </span>
     </div>  
@@ -68,14 +68,14 @@ function App() {
         <div className="image one">
           <Introduction />
         </div>
-        <div class="scroll" id='detail'>
+        <div class="scroll" id='Reviews'>
           <h3>
-            Are you ready for getting coffee?
+            Review
           </h3>
         </div>
 
         <div className="image two">
-          <Detail />
+          <Reviews />
         </div>
         <div class="scroll" id='menu'>
         <h3 id='menu'>

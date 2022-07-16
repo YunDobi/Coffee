@@ -1,0 +1,22 @@
+.ReviewContainer {
+  /* border: 1px solid white; width: 1200px; */
+  height: 400px;
+  display: flex;
+}
+.Review {
+  /* border: 1px solid white; */
+  width:400px; 
+  height: 400px;
+  margin: 0 15px;
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+.reviewText {
+  border: 1px solid white;
+  width: 400px;
+  height: 400px;
+  margin: 0 5px;
+}
+.selected {
+  transform: scale(1.1);
+}
