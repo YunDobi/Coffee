@@ -6,6 +6,7 @@ const BrewJSX = (props) => {
     <div
       className="cafeContainer"
       style={{
+        marginTop:"70px",
         width: "100%",
         height: "600px",
         backgroundImage:`url(${props.url})`,
