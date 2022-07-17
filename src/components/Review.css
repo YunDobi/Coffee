@@ -6,17 +6,43 @@
 .Review {
   /* border: 1px solid white; */
   width:400px; 
-  height: 400px;
+  height: 350px;
   margin: 0 15px;
-  background-color: rgba(0, 0, 0, 0.7);
+  background-color: rgba(0, 0, 0, 0.4);
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  border-radius: 30px;
 }
 
 .reviewText {
-  border: 1px solid white;
-  width: 400px;
-  height: 400px;
-  margin: 0 5px;
+  color: white;
+  margin: 15px;
+  border: 1px;
+  font-size: 150%;
 }
+.reviewAuthor {
+  color: white;
+  font-weight: bold;
+}
+
+.blackFrame {
+  height: 50px;
+}
+.person {
+  margin: 0;
+  position: relative;
+  top: 1875px;
+  left: 400px;
+  filter: drop-shadow(10px 10px 20px rgba(0, 0, 0, 0.2));
+}
+
+
 .selected {
+  background-color: white;
   transform: scale(1.1);
+}
+.selected > .reviewText {
+  color: black;
 }
