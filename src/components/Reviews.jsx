@@ -33,7 +33,7 @@ const Detail = () => {
         <img src={BlackRe} alt="" className="BlackFrame"/>
         {/* {console.log(document.getElementById("1").parentNode)} */}
         <p className="reviewText">That was really tasty coffee ever.</p>
-        <img src={require("../images/Ellipse 10.png")} alt="" style={{marginTop:"90px"}}/>
+        <img src={require("../images/Ellipse 10 (2).png")} alt="" style={{marginTop:"90px"}}/>
         <p className="reviewAuthor">Mahesh Babu</p>
       </div>
       <div className="Review selected" onClick={handleClick}>
@@ -45,7 +45,7 @@ const Detail = () => {
         <div className="Review" onClick={handleClick}>
         <img src={BlackRe} alt="" className="BlackFrame" />
           <p className="reviewText">Awasome environmnet for studying.</p>
-          <img src={require("../images/Ellipse 10.png")} alt="" style={{marginTop:"90px"}}/>
+          <img src={require("../images/Ellipse 10 (1).png")} alt="" style={{marginTop:"90px"}}/>
           <p className="reviewAuthor">Donald Kid</p>
       </div>
     </div>
