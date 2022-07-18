@@ -3,7 +3,7 @@ import React from "react";
 const Footer = () => {
   return (
     <>
-    <div className="FooterContainer" style={{ height: "100px", display:"flex", justifyContent:"space-around", padding:"15px" }}>
+    <div className="FooterContainer" style={{margin:"0", height: "160px", display:"flex", justifyContent:"space-around", padding:"15px", backgroundColor:"beige" }}>
       <div style={{display:"flex", justifyContent:"center", alignItems:"center"}}>
         <h3>Brew Holic</h3>
       </div>

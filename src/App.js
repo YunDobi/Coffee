@@ -39,7 +39,7 @@ function SlideShow () {
         {images.map((image, index) => {
           return (
             <div className='Slide' key={index}>
-              <Cafe url={image} text="brew every fresh Coffee"/>
+              <Cafe url={image}/>
             </div>
           )
         })}

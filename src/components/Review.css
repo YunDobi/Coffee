@@ -9,7 +9,7 @@
   height: 350px;
   margin: 0 15px;
   background-color: rgba(0, 0, 0, 0.4);
-  justify-content: center;
+  /* justify-content: center; */
   align-items: center;
   display: flex;
   flex-direction: column;
@@ -45,6 +45,6 @@
   background-color: white;
   transform: scale(1.1);
 }
-.selected > .reviewText, .selected > .reviewAuthor {
+.selected > .reviewText {
   color: black;
 }
