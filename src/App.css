@@ -3,6 +3,10 @@ html {
   font-family: Helvetica, sans-serif;
 }
 
+h3 {
+  font-family: 'Edu VIC WA NT Beginner', cursive;
+}
+
 .App {
   margin: 0;
   padding: 0;

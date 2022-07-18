@@ -14,7 +14,7 @@ const BrewJSX = (props) => {
         textAlign:"center"
       }}
     >
-      <h3 style={{color: "white"}}>{props.text}</h3>
+      <h2 style={{color: "white"}}>{props.text}</h2>
     </div>
   );
 };

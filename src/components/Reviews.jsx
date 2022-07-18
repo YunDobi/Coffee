@@ -38,11 +38,13 @@ const Detail = () => {
       <div className="Review selected" onClick={handleClick}>
         <img src={BlackRe} alt="" className="BlackFrame"/>
         <p className="reviewText">That was great experinec entire my life. Making own coffe from my hand and tasty it.</p>
+        <p className="reviewAuthor">Marshall Li</p>
         <img src={require("../images/Ellipse 10.png")} alt="" className="person"/>
       </div>
       <div className="Review" onClick={handleClick}>
       <img src={BlackRe} alt="" className="BlackFrame" />
         <p className="reviewText">Awasome environmnet for studying.</p>
+        <p className="reviewAuthor">Donald Kid</p>
         <img src={require("../images/Ellipse 10.png")} alt="" className="person"/>
       </div>
 

@@ -9,6 +9,10 @@
   text-align: center;
   z-index: 2;
 }
+
+h1 {
+  font-family: 'Edu VIC WA NT Beginner', cursive;
+}
 .NavMenu {
   display: flex;
   gap:30px;
