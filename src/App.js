@@ -39,7 +39,7 @@ function SlideShow () {
         {images.map((image, index) => {
           return (
             <div className='Slide' key={index}>
-              <Cafe url={image} text="brew every fresh Coffee"/>
+              <Cafe url={image}/>
             </div>
           )
         })}
@@ -70,7 +70,7 @@ function App() {
         </div>
         <div class="scroll" id='Reviews'>
           <h3>
-            Review
+            REVIEWS
           </h3>
         </div>
 
@@ -79,7 +79,7 @@ function App() {
         </div>
         <div class="scroll" id='menu'>
         <h3 id='menu'>
-            menu
+            MENU
         </h3>
         </div>
 
@@ -88,7 +88,7 @@ function App() {
         </div>
         <div class="scroll" id='reservation'>
         <h3>
-          reservation
+          RESERVATION
         </h3>
       </div>
 

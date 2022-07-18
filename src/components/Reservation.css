@@ -1,12 +1,13 @@
 .inputContainer {
   border: 1px solid white;
   border-radius: 30px;
-  background-color: aliceblue;
+  background-color: white;
   width: 500px;
   height: 400px;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
+  overflow: hidden;
 }
 .emailInput {
   margin-top: 30px;
@@ -16,3 +17,40 @@
 button {
   margin-top: 30px;
 }
+
+.cartoon {
+  /* display: flex;
+  align-items: center;
+  justify-content: center; */
+  margin: 0 auto;
+  width: 100px;
+  height: 100px;
+}
+/* .cat {
+  top: 2800px;
+  position: absolute;
+  width: 480px;
+  height: 476px;
+  background: url(../images/spritesheet.png);
+  animation: walk 0.9s steps(8) infinite, run 4s linear infinite;
+  transform: scale(0.2);
+}
+
+@keyframes walk {
+  from {
+    background-position: 0;
+  }  
+  to {
+    background-position: 4352px;
+  }
+}
+@keyframes run {
+  0% {
+    left: 10%;
+  }
+  
+  100% {
+    left: 560px;
+  }
+   */
+/* } */

@@ -33,19 +33,21 @@ const Detail = () => {
         <img src={BlackRe} alt="" className="BlackFrame"/>
         {/* {console.log(document.getElementById("1").parentNode)} */}
         <p className="reviewText">That was really tasty coffee ever.</p>
+        <img src={require("../images/Ellipse 10.png")} alt="" style={{marginTop:"90px"}}/>
         <p className="reviewAuthor">Mahesh Babu</p>
       </div>
       <div className="Review selected" onClick={handleClick}>
         <img src={BlackRe} alt="" className="BlackFrame"/>
         <p className="reviewText">That was great experinec entire my life. Making own coffe from my hand and tasty it.</p>
-        <img src={require("../images/Ellipse 10.png")} alt="" className="person"/>
+        <img src={require("../images/Ellipse 10.png")} alt="" style={{marginTop:"20px"}}/>
+        <p className="reviewAuthor">Marshall Li</p>
       </div>
-      <div className="Review" onClick={handleClick}>
-      <img src={BlackRe} alt="" className="BlackFrame" />
-        <p className="reviewText">Awasome environmnet for studying.</p>
-        <img src={require("../images/Ellipse 10.png")} alt="" className="person"/>
+        <div className="Review" onClick={handleClick}>
+        <img src={BlackRe} alt="" className="BlackFrame" />
+          <p className="reviewText">Awasome environmnet for studying.</p>
+          <img src={require("../images/Ellipse 10.png")} alt="" style={{marginTop:"90px"}}/>
+          <p className="reviewAuthor">Donald Kid</p>
       </div>
-
     </div>
 
     </div>

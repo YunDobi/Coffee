@@ -18,6 +18,7 @@ h3 {
   justify-content: space-between;
 }
 .textContainer {
+  max-width: 450px;
   justify-content: center;
   align-items: center;
   display: flex;

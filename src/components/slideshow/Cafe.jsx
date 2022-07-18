@@ -11,10 +11,14 @@ const BrewJSX = (props) => {
         height: "600px",
         backgroundImage:`url(${props.url})`,
         backgroundSize: "100% 100%",
-        textAlign:"center"
+        textAlign:"center",
+        justifyContent:"center",
+        alignItems:"center",
+        display:"flex",
+
       }}
     >
-      <h3 style={{color: "white"}}>{props.text}</h3>
+      {/* <h2 style={{color: "white"}}>{props.text[0]}</h2> */}
     </div>
   );
 };
