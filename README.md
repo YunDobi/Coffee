@@ -2,7 +2,9 @@
   ![ScrrenShot](https://github.com/YunDobi/Coffee/blob/master/src/images/readme/SC.png)
 
 # Demo
-  ![Demo](https://github.com/YunDobi/Coffee/blob/master/src/images/readme/record.mov)
+  ![Demo](https://user-images.githubusercontent.com/88572626/179624293-7b6f4b4e-38c1-432d-9d03-b38bb9367801.mov)
+
+
 
 
 # Getting Started
