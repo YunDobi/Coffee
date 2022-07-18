@@ -1,6 +1,8 @@
 # ScreenShot
+  ![ScrrenShot](https://github.com/YunDobi/Coffee/blob/master/src/images/readme/SC.png)
 
 # Demo
+  ![Demo](https://github.com/YunDobi/Coffee/blob/master/src/images/readme/record.mov)
 
 
 # Getting Started
